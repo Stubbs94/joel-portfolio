@@ -71,7 +71,7 @@ html .sticky,html .postlist article.sticky{border-color:#888}
 .sf-menu li a .sf-description{font-size:10px;text-transform:none;display:block;line-height:normal;margin-top:0}
 .sf-menu,.sf-menu *{list-style:none}
 .sf-menu{line-height:1.0;margin:0}
-.sf-menu ul{position:absolute;top:-999em;width:auto;z-index:500;display:none;top:100%;left:0;background:#fff;border-bottom:0;margin:0;padding:0;width:200px;border-left:1px solid #f2f2f2;border-right:1px solid #f2f2f2;border-top:1px solid #f2f2f2;-webkit-box-shadow:2px 2px 5px 0 rgba(0,0,0,0.1);box-shadow:2px 2px 5px 0 rgba(0,0,0,0.1)}
+.sf-menu ul{position:absolute; border-radius: 5px; top:-999em;width:auto;z-index:500;display:none;top:100%;left:0;background:#fff;border-bottom:0;margin:0;padding:0;width:200px;border-left:1px solid #f2f2f2;border-right:1px solid #f2f2f2;border-top:1px solid #f2f2f2;-webkit-box-shadow:2px 2px 5px 0 rgba(0,0,0,0.1);box-shadow:2px 2px 5px 0 rgba(0,0,0,0.1)}
 .sf-menu ul ul{margin-top:-1px}
 .sf-menu ul li{width:100%;padding:0;text-align:left;font-size:12px;border-bottom:1px solid #f2f2f2}
 .sf-menu ul li:hover{border-bottom-color:#e3e3e3}
