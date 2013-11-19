@@ -1,3 +1,4 @@
+ 			
  			<?php  global $smof_data; ?>
 			<?php if(isset($smof_data['mobile_slider'])) { 
 				$mobile_slider = $smof_data['mobile_slider'];
@@ -39,6 +40,22 @@
    		<div class="row">
           <div class="main <?php echo kadence_main_class(); ?>" role="main">
 
+          	<div class="container">
+				<h2>UK based Webdesigner, <br>Freelancer for Human Made Limited</h>
+
+			<?php $g_settings = get_option('g_settings'); ?>
+							
+<!-- 			<div class="availability-box">
+				<p>I am currently:</p>
+				<?php if ($g_settings['available'] == 'Yes') { ?>
+					<div class="available">Available for hire</div>
+					<a href="mailto:<?php echo $g_settings['contact_email']; ?>" class="available-button">Contact Me</a>
+				<?php } else { ?>
+					<div class="available">Available for hire</div>
+					<!-- <a href="mailto:<?php echo $g_settings['contact_email']; ?>" class="not-available-button">Contact Me</a> -->
+				<?php } ?>
+			</div> 
+
       	<?php if(isset($smof_data['homepage_layout'])) { $layout = $smof_data['homepage_layout']['enabled']; } else {$layout = array("block_one" => "block_one", "block_two" => "block_two"); }
 
 				if ($layout):
@@ -48,10 +65,10 @@
 				    switch($key) {
 
 				    	case 'block_one':?>
-						    <div id="homeheader" class="welcomeclass">
-								<div class="container">
-									<?php get_template_part('templates/page', 'header'); ?>
+
+								<?php get_template_part('templates/page', 'header'); ?>
 								</div><!--container-->
+
 							</div><!--titleclass-->
 					    <?php 
 					    break;
