@@ -41,7 +41,7 @@
           <div class="main <?php echo kadence_main_class(); ?>" role="main">
 
           	<div class="container">
-				<h2>Designer & Front-end WordPress Developer</h2>
+				<h3>Hi there, my name is Joel Stubbs I'm a Web Designer & Front-end WordPress Developer. I am currently avalible for hire, feel free to contact e via the hire me page.</h3>
 
 			<?php $g_settings = get_option('g_settings'); ?>
 							
