@@ -150,7 +150,9 @@ a:hover {text-decoration: none;}
 .availability-box p{
 	padding-top: 0px;
 }
-
+.container .span12 h2{
+	text-align: center;
+}
 
 .home-padding {
 	padding: 0px 0 0px;
