@@ -41,7 +41,7 @@
           <div class="main <?php echo kadence_main_class(); ?>" role="main">
 
           	<div class="container">
-				<h2>UK based Webdesigner, <br>Freelancer for Human Made Limited</h>
+				<h2>Designer & Front-end WordPress Developer</h2>
 
 			<?php $g_settings = get_option('g_settings'); ?>
 							
