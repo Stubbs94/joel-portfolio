@@ -28,19 +28,19 @@ if ( file_exists( dirname( __FILE__ ) . '/wp-config-local.php' ) )
 
 /** The name of the database for WordPress */
 if ( ! defined( 'DB_NAME' ) )
-	define( 'DB_NAME', '' );
+	define( 'DB_NAME', 'joelstubbs' );
 
 	/** MySQL database username */
 if ( ! defined( 'DB_USER' ) )
-	define( 'DB_USER', '' );
+	define( 'DB_USER', 'joelstubbs94' );
 
 	/** MySQL database password */
 if ( ! defined( 'DB_PASSWORD' ) )
-	define( 'DB_PASSWORD', '' );
+	define( 'DB_PASSWORD', 'hockey94' );
 
 	/** MySQL hostname */
 if ( ! defined( 'DB_HOST' ) )
-	define( 'DB_HOST', '' );
+	define( 'DB_HOST', 'mysql.joelstubbs.co.uk' );
 
 	/** Database Charset to use in creating database tables. */
 if ( ! defined( 'DB_CHARSET' ) )
